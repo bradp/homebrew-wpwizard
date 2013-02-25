@@ -7,6 +7,6 @@ class Wpwizard < Formula
   version '1.0.1'
   
   def install
-    sbin.install "wpwizard"
+    bin.install "wpwizard" => "wpwizard"
   end
 end
