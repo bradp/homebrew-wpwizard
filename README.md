@@ -1,0 +1,1 @@
+Homebrew Tap formula for [wpWizard](http://github.com/bradp/wpwizard).
