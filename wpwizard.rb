@@ -2,9 +2,9 @@ require 'formula'
 
 class Wpwizard < Formula
   homepage 'https://github.com/bradp/wpWizard'
-  url 'https://github.com/bradp/wpWizard/archive/1.0.3.zip'
+  url 'https://github.com/bradp/wpWizard/archive/1.0.4.zip'
   sha1 '8b202f0992113ac6978ddbd4520851adab6b38f8'
-  version '1.0.3'
+  version '1.0.4'
   
   def install
     bin.install "wpwizard" => "wpwizard"
