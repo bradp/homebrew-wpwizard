@@ -2,13 +2,13 @@ require 'formula'
 
 class Wpwizard < Formula
   homepage 'https://github.com/bradp/wpWizard'
-  url 'https://github.com/bradp/wpWizard/archive/1.0.4.zip'
-  sha1 '8b202f0992113ac6978ddbd4520851adab6b38f8'
-  version '1.0.4'
+  url 'https://github.com/bradp/wpWizard/archive/1.0.5.zip'
+  sha1 'e38feba87605e119dc48e0efc88932e25c99808e'
+  version '1.0.5'
   
   def install
     bin.install "wpwizard" => "wpwizard"
-    bin.install "conf/plugins.conf" => "conf/plugins.conf"
-    bin.install "conf/mu-plugins.conf" => "conf/mu-plugins.conf"
+    bin.install "plugins.conf" => "plugins.conf"
+    bin.install "mu-plugins.conf" => "mu-plugins.conf"
   end
 end
