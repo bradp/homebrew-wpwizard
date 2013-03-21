@@ -3,7 +3,7 @@ require 'formula'
 class Wpwizard < Formula
   homepage 'https://github.com/bradp/wpWizard'
   url 'https://github.com/bradp/wpWizard/archive/1.1.3.zip'
-  sha1 '0234c647ecd39cc26ed42a3dcffe55e5afcd10bb'
+  sha1 '062760139a5ddcf62907278bd1fb84d4c98ea466'
   version '1.1.3'
   
   def install
